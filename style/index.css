@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "font";
+    src: url(../font/fa-solid-900.eot);
+    src: url(../font/fa-solid-900.svg);
+    src: url(../font/fa-solid-900.ttf);
+    src: url(../font/fa-solid-900.woff);
+    src: url(../font/fa-solid-900.woff2);
+}
+.navbar{
+    background-color:  #212529;
+    color: white;
+}
+.back-img{
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg');
+        height: 600px;
+        width: 100%;
+        margin-top: 58px;
+        padding: 3rem;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-sizing: content-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+h4{
+    font-weight: 600;
+    font-size: xx-large;
+}
+.btn{
+    color: #fff;
+    background-color: #ffc800;
+    border-color: #ffc800;
+}
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+/*end of the header*/
+/*service*/
+.service{
+    padding: 70px;
+}
+.row-s{
+    text-align: center;
+    font-size: large;
+}
+h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+.row{
+    font-family: "font";
+    --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-0.5 * var(--bs-gutter-x));
+        margin-left: calc(-0.5 * var(--bs-gutter-x));
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+}
+.row>*{
+    padding: 25px;
+}
+.icon{
+    background-color: #ffc800;
+    color: #fff;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 80px;
+}
+h3{
+    font-weight: 700;
+}
+/*end of service*/
+/*portofilio*/
+.portfilo{
+    --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity))
+}
+.card{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*end portofilio*/
+/* about*/
+.about-row{
+    padding: 40px;
+    text-align: center;
+}
+.r{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    padding: 10px;
+}
+.left-side{
+    
+        width: 40%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+}
+.centre{
+        display: flex;
+        justify-content: first-baseline;
+        align-items: center;
+        
+        width: 60%;
+        height: 200px;
+        margin-left: 15px;
+}
+.centre-r{
+    display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    
+        width: 60%;
+        height: 200px;
+        padding-right: 40px;
+}
+.right-side {
+
+    width: 40%;
+    padding: 0 20px 20px 30px;
+    text-align: left;
+}
+/*end of about*/
+/*team*/
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+.btn{
+    font-family: "font";
+}
